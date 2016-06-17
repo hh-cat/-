@@ -15,6 +15,8 @@
 #include "Student.h"
 
 extern string the_initial_password;
+
+
 //返回 begin 和 end 之间的整数,排除不良输入
 int accept_the_input_int(int begin, int end) {
     int input;
@@ -646,6 +648,4 @@ void analyse_the_grade(struct student& data) {
             }
         }
     }
-    
-    cout << '1';
 }
